@@ -1,1 +1,7 @@
-package section_4
+//go:build ignore
+
+package main
+
+func main() {
+
+}

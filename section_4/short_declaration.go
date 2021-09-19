@@ -1,10 +1,10 @@
 //go:build ignore
-// +build ignore
 
 package main
 
 import "fmt"
 
+//Short declaration operator => :=
 func main() {
 
 	BooleanType()
