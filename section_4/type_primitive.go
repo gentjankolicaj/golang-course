@@ -18,11 +18,12 @@ func main() {
 
 	var f interface{}
 
-	var g byte  //uint8 2^8
+	var g byte //uint8 2^8
 
 	var i string
 
-	fmt.Println(a,b,c,d,e,f,g,i)
+	var j complex64
 
+	fmt.Println(a, b, c, d, e, f, g, i, j)
 
 }

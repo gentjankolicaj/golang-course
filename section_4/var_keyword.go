@@ -5,12 +5,18 @@ package main
 import "fmt"
 
 //Important declaration keyword => var identifier_name type
+
 //When we declare a variable and not initialize default values are assigned
 //Boolean => false
 //Integer => 0
 //Double/float => 0.0
-//String =>
+//String =>""
 //interface{} => nil
+//Pointer => nil
+//functions => nil
+//slices =>nil
+//map => nil
+//channels => nil
 
 //Global declaration,or file declaration
 var flag bool
