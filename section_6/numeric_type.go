@@ -26,7 +26,7 @@ complex64   the set of all complex numbers with float32 real and imaginary parts
 complex128  the set of all complex numbers with float64 real and imaginary parts
 
 byte        alias for uint8
-rune        alias for int32
+rune        alias for int32  (Each code-point is known)
 */
 
 /** IMPLEMENTATION SPECIFIC
