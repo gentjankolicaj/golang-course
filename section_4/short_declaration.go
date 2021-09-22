@@ -4,14 +4,12 @@ package main
 
 import "fmt"
 
-//Short declaration operator => :=
+//Short declaration operator => := ,and used only locally not package scope
 func main() {
-
 	BooleanType()
 	SignedIntegerType()
 	SignedDoubleType()
 	StringType()
-
 }
 
 func BooleanType() {
