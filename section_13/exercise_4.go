@@ -14,6 +14,7 @@ func main() {
 		age, height   int
 		id, code_name string
 		country, city string
+		friends       []string
 	}{
 		first:     "Bruce",
 		last:      "Wayne",
@@ -23,6 +24,7 @@ func main() {
 		code_name: "Dark knight",
 		country:   "USA",
 		city:      "Gotham",
+		friends:   []string{"Superman,Flash"},
 	}
 
 	fmt.Println("Super-hero : ", superHero)
