@@ -2,9 +2,7 @@
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //Function syntax : func (r receiver) identifier(params) (returns){}
 //Methods : functions with receiver.
@@ -17,16 +15,28 @@ import (
 //Anon func : functions without identifier
 //Variadic params : A variable number of parameters in function
 //Func expression : Assign to a variable a value of func
+//Variable of type func : var f func()
 
 func main() {
-	//define variable of type func
-	var variable func()
 
-	variable = func() {
-		fmt.Println("Local anonymous func assigned to variable")
+	//g variable holds a value of type func(s string) string
+	g := greeting()
+
+	//Invoke func
+	str := g("Invoked ")
+	fmt.Println(str)
+}
+
+func greeting() func(s string) string {
+	var s string = "Greeting from func greeting()"
+	fmt.Println(s)
+
+	//Declare of variable f
+	var f func(s string) string
+
+	//Assign value to f
+	f = func(s string) string {
+		return "Anon-func " + s
 	}
-
-	//Calling variable
-	variable()
-
+	return f
 }
