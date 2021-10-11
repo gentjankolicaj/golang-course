@@ -9,7 +9,8 @@ import "fmt"
 // Error() string
 //}
 
-//Any type that implements Error()string method ,is of type error.
+//NOTE:Errors are just another type in golang
+//NOTE:Any type that implements all methods of an interface is a type of that interface.
 
 func New(text string) error {
 	return &errorString{text}
