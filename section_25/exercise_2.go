@@ -36,7 +36,7 @@ func toJSON(p person) ([]byte, error) {
 	var customError error = fmt.Errorf("Custom error with json at : %v ", time.Now())
 	byteSlice, err := json.Marshal(p)
 	if err != nil {
-		return byteSlice, customError
+		return []byte{}, customError
 	} else {
 		return byteSlice, customError
 	}
