@@ -11,6 +11,11 @@ type data struct {
 	testData []float64
 }
 
+type canine struct {
+	name string
+	age  int
+}
+
 func main() {
 	var dataArray [3]data
 	for i := 0; i < len(dataArray); i++ {
@@ -25,4 +30,10 @@ func main() {
 	for i, v := range dataArray {
 		fmt.Printf("index %d , value %v \n", i, v)
 	}
+
+	rex := canine{
+		name: "Rex",
+		age:  2,
+	}
+
 }
