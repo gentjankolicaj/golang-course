@@ -2,7 +2,11 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/gentjankolicaj/golang-course/tree/main/section_27/dog"
+)
 
 type data struct {
 	id       int
@@ -35,5 +39,7 @@ func main() {
 		name: "Rex",
 		age:  2,
 	}
+
+	fmt.Println(dog.FromHumanToDog(rex.age))
 
 }
