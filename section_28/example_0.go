@@ -1,8 +1,9 @@
+//go:build ignored
 package main
 
 import "fmt"
 
-//This function calculates product of variadic param values and returns it
+//Mult ... calculates product of variadic param values and returns it
 func Mult(x ...int) int {
 	result := 1
 	for _, v := range x {
