@@ -1,3 +1,4 @@
+//go:build ignored
 package main
 
 import "fmt"
