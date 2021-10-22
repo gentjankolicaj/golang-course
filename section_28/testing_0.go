@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 //go:build ignored
 
-=======
->>>>>>> 54a2b972697d4b04b69a676a3ecb75818dc94b81
 package main
 
 import (
