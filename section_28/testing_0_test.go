@@ -11,7 +11,3 @@ func TestSum(t *testing.T) {
 		t.Error("Failed to calculate correct sum")
 	}
 }
-
-func Sum(a, b int) int {
-	return a + b
-}
