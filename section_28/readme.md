@@ -1,15 +1,17 @@
-Golang tests :
+# Golang tests :
 
--Test
--Example
--Benchmark
+- Test
+- Example
+- Benchmark
 
-Function : Join()
-func TestJoin(t *testing.T){}
-func ExampleJoin(){}
-func BenchmarkJoin(b *testing.B){}
-
-Commands:
+```
+Function to be tested : Join()
+- func TestJoin(t *testing.T){}
+- func ExampleJoin(){}
+- func BenchmarkJoin(b *testing.B){}
+```
+# Commands:
+```
 godoc -http=:8080
 go test <dir | filename>
 go test -bench <dir | filename>
