@@ -1,5 +1,4 @@
 //go:build ignored
-
 package main
 
 import (
@@ -14,6 +13,11 @@ type canine struct{
 	age int
 }
 
+//NOTE:
+//To run coverage : go test -cover .
+//To run benchmark : go test -bench .
+//To create coverage profile : go test -coverageprofile filename.out
+//To show coverage profile on browser : go tool cover -html=c.out
 func main(){
    rex:=canine{
 	   name:"Rex",
