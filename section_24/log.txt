@@ -1,0 +1,3 @@
+2021/10/11 17:30:00 Error happened  open no-file.txt: no such file or directory
+2021/10/11 17:30:00 Check log.txt file
+2021/10/11 17:30:00 Fatal message : 
